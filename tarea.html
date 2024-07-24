@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Tarea JS</title>
+</head>
+<body>
+
+    <h2>Ejercicio 5 </h2>
+    <select id="tipo-coche">
+        <option value="FORD FIESTA">FORD FIESTA</option>
+        <option value="FORD FOCUS">FORD FOCUS</option>
+        <option value="FORD ESCAPE">FORD ESCAPE</option>
+    </select>
+    <button onclick="descuentoCompra()">Calcular Descuento</button>
+
+    <h3 id="resultado"></h3>
+
+    <h2>Ejercicio 8: Tabla de Multiplicar</h2>
+    <label for="numero">Introduce un número:</label>
+    <input type="number" id="numero" placeholder="Número">
+    <button onclick="mostrarTabla()">Mostrar Tabla</button>
+
+    <h4>Tabla de Multiplicar</h4>
+    <div id="tabla"></div>
+
+    <h2>Ejercicio 9: Conversión de Temperatura</h2>
+    <label for="celsius">Introduce la temperatura en Celsius:</label>
+    <input type="number" id="celsius" placeholder="Temperatura en Celsius">
+    <button onclick="CelsiusFahrenheit()">Convertir</button>
+
+    <h4>Resultado</h4>
+    <div id="Respuesta"></div>
+
+    <h2>Ejercicio 10: Promedio de Edades por Turno</h2>
+    
+    <div class="turno">
+        <h4>Turno Mañana</h4>
+        <label for="manana">Edades:</label>
+        <input type="text" id="manana" placeholder="Ejemplo: 15,16,17,18,19">
+    </div>
+    
+    <div class="turno">
+        <h4>Turno Tarde</h4>
+        <label for="tarde">Edades:</label>
+        <input type="text" id="tarde" placeholder="Ejemplo: 15,16,17,18,19,20">
+    </div>
+    
+    <div class="turno">
+        <h4>Turno Noche</h4>
+        <label for="noche">Edades:</label>
+        <input type="text" id="noche" placeholder="Ejemplo: 15,16,17,18,19,20,21,22,23,24,25">
+    </div>
+    
+    <button onclick="calcularPromedios()">Calcular Promedios</button>
+
+    <h4>Calcular</h4>
+    <div id="Calcular"></div>
+
+    
+    <script src="tarea.js"></script>
+</body>
+</html>
